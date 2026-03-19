@@ -13,5 +13,17 @@ function ex03() {
 
     console.log(ganhoAnual);
     console.log(gastoAnual);
+
+    let saldo = ganhoAnual - gastoAnual;
+
+    alert("ganho Anual: ", ganhoAnual);
+    alert("gasto Anual: ", gastoAnual);
+    alert("saldo Anual: ", saldoAnual);
+        if (saldo >0){
+            alert("");
+        }else{
+            alert("prejuizo!");
+        }
+
 }
 ex03();
