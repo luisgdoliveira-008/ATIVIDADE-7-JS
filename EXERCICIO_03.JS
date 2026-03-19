@@ -1,4 +1,4 @@
-function ex03() {
+function balancoGeral() {
 
     let ganhoAnual = 0;
     let gastoAnual = 0;
@@ -20,10 +20,9 @@ function ex03() {
     alert("gasto Anual: ", gastoAnual);
     alert("saldo Anual: ", saldoAnual);
         if (saldo >0){
-            alert("");
+            alert("lucro!");
         }else{
             alert("prejuizo!");
         }
 
 }
-ex03();
