@@ -1,4 +1,4 @@
-function diminuirNumeros(){
+function diminuirNumeros() {
 
    console.log("contagem regressiva:");
 

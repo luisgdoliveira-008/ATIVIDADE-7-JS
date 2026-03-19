@@ -1,7 +1,11 @@
-function manipulacaoString() {
-        console.log("3. manipulação de string");
-        let text = promp("digite um texto: ");
+function ordena() {
+    let numeros = [];
 
-        console.log(text.split("").reverse().joi(""))
+    for(let i = 0; i < 4; i++){
+        numeros.push(number(prompt("digite um numero")));
+       numeros.sort((a,b) => b - a);
+    } 
+
+     alert.log("ordem decrescente: " + numeros);
 }
 
