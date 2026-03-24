@@ -1,13 +1,20 @@
 function vogaleconsoante() {
 
-let letra = prompt ("Digite uma letra");
-let vogais = [a,e,i,o,u,A,E,I,O,U];
+    let letra = prompt("digite uma letra: ");
 
-if(vogais.includes(letra)){
-    alert("vogal");
-}else{
-    alert("consoante");
-}
+    if (letra == "a" ||
+        letra == "e" ||
+        letra == "i" ||
+        letra == "o" ||
+        letra == "u") {
+        alert("vogal");
+    } else {
+        alert("consoante");
+    }
+
+
+
+
 
 
 }
