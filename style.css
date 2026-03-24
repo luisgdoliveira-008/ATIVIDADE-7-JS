@@ -6,5 +6,16 @@ border-radius: 50px;
 border-color: chocolate;
 width: 100px;
 height: 50px;
+margin-top: 20px;
 
+
+}
+
+.titulo_fixado {
+    background-color: rgb(3, 41, 145);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
